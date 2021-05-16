@@ -1,0 +1,74 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.884);
+    overflow-x: hidden;
+    transition: 0.3s ease;
+    padding-top: 60px;
+    z-index: 2000 !important;
+  }
+  
+  .sidenav ul li {
+    margin-bottom: 3rem;
+  }
+
+  .sidenav .nav-item a {
+    color: #fafafa;
+    font-size: 1rem;
+    display: block;
+    padding: .5rem 1rem;
+    margin: 0 1rem ;
+  }
+  
+ .sidenav .btn {
+       
+    text-transform: uppercase!important;
+    padding: 0.8rem 1.3rem !important;
+    border: #fafafa solid 2px !important;
+    border-radius: 5px;
+    color: #fafafa;
+  }
+ .sidenav .btn:hover {
+    background-color: #fafafa !important;
+    transition: 0.55s ease!important;
+    color: #000000 !important;
+
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .sidenav h5 {
+    font-weight: 100 !important;
+    color: aliceblue;
+    
+}
+.sidenav button.btn1 {
+    background-color:  #ff3500 !important;
+    border-radius: 50px !important;
+    padding: 1rem 3rem !important;
+    border: none !important;
+}
+
+.sidenav button.btn1:hover {
+  background-color:  #fff !important;
+  color: #ff3500 !important;
+}
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

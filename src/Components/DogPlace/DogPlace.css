@@ -1,0 +1,101 @@
+/* All Categories  */
+.allcategories {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.allcategories h4 {
+ border-bottom: #ff3500 solid 2px;
+ margin-bottom: 2rem;
+}
+/* All Categories  */
+
+/* All Dogs */
+.alldogs {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.alldogs h4 {
+    border-bottom: #ff3500 solid 2px;
+    margin-bottom: 2rem;
+   }
+
+.alldogs .card {
+    background-color: #fafafa !important;
+    border-radius: 3%;
+}
+
+.alldogs h5 {
+    color: #ff3500;
+} 
+
+.alldogs  button {
+    background-color:  #ff3500;
+    border-radius: 50px;
+    color: #fafafa;
+}
+
+
+/* All Dogs */
+
+/* Dog  */
+.dog {
+    margin-top: 5rem;
+    padding-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.dog button.btn2 {
+    background-color:  #ff3500;
+    border-radius: 5px;
+    color: #fafafa;
+}
+
+/* .dog .light {
+    border: #ff3500 1px solid;
+} */
+.dog .details {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.dog h4, .dog .unbold {
+    font-weight: 100 !important;
+}
+
+.dog h5 {
+    padding: 1rem 2rem;
+    background-color: #fafafa;
+    border-radius: 5px;
+    margin-top: 2rem;
+    box-shadow: 0 0.3rem 0.5rem rgb(0 0 0 / 10%);
+}
+
+.dog .description h5 {
+    box-shadow: none !important;
+    font-weight: 100 !important;
+    text-align: justify;
+    padding: 0 !important;
+
+}
+/* Dog  */
+
+
+
+@media screen and (max-width: 568px) {
+
+    .alldogs .card p, .alldogs .card h5 {
+       text-align: center !important;
+    }
+
+    .alldogs  button {
+       padding: .84rem 1.14rem ;
+    }
+
+    .dog {
+    
+        padding-top: 0rem;
+ 
+    }
+}
